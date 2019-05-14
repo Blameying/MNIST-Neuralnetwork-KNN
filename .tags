@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	e-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/9b28d8ce/
+DrawingBoard	client.py	/^class DrawingBoard(QWidget):$/;"	kind:c	line:76	inherits:QWidget	access:public
+DrawingBoard.__init__	client.py	/^    def __init__(self):$/;"	kind:m	line:77	class:DrawingBoard	access:public	signature:(self)
+DrawingBoard.clear	client.py	/^    def clear(self):$/;"	kind:m	line:92	class:DrawingBoard	access:public	signature:(self)
+DrawingBoard.getData	client.py	/^    def getData(self):$/;"	kind:m	line:114	class:DrawingBoard	access:public	signature:(self)
+DrawingBoard.mouseDoubleClickEvent	client.py	/^    def mouseDoubleClickEvent(self,e):$/;"	kind:m	line:111	class:DrawingBoard	access:public	signature:(self,e)
+DrawingBoard.mouseMoveEvent	client.py	/^    def mouseMoveEvent(self,e):$/;"	kind:m	line:97	class:DrawingBoard	access:public	signature:(self,e)
+DrawingBoard.mousePressEvent	client.py	/^    def mousePressEvent(self,e):$/;"	kind:m	line:105	class:DrawingBoard	access:public	signature:(self,e)
+DrawingBoard.mouseReleaseEvent	client.py	/^    def mouseReleaseEvent(self,e):  $/;"	kind:m	line:108	class:DrawingBoard	access:public	signature:(self,e)
+KNNThread	client.py	/^class KNNThread(QThread):$/;"	kind:c	line:12	inherits:QThread	access:public
+KNNThread.__init__	client.py	/^    def __init__(self,test_images,test_labels,images,labels,k):$/;"	kind:m	line:15	class:KNNThread	access:public	signature:(self,test_images,test_labels,images,labels,k)
+KNNThread.finishSignal	client.py	/^    finishSignal = pyqtSignal()$/;"	kind:v	line:14	class:KNNThread	access:public
+KNNThread.run	client.py	/^    def run(self):$/;"	kind:m	line:22	class:KNNThread	access:public	signature:(self)
+KNNThread.update	client.py	/^    update = pyqtSignal(str)$/;"	kind:v	line:13	class:KNNThread	access:public
+MainWindow	client.py	/^class MainWindow(QWidget):$/;"	kind:c	line:117	inherits:QWidget	access:public
+MainWindow.__init__	client.py	/^    def __init__(self):$/;"	kind:m	line:118	class:MainWindow	access:public	signature:(self)
+MainWindow.settingButtonClicked	client.py	/^    def settingButtonClicked(self):$/;"	kind:m	line:167	class:MainWindow	access:public	signature:(self)
+MainWindow.testTask	client.py	/^    def testTask(self):$/;"	kind:m	line:196	class:MainWindow	access:public	signature:(self)
+MainWindow.trainFinish	client.py	/^    def trainFinish(self):$/;"	kind:m	line:173	class:MainWindow	access:public	signature:(self)
+MainWindow.trainTask	client.py	/^    def trainTask(self):$/;"	kind:m	line:177	class:MainWindow	access:public	signature:(self)
+MainWindow.ui	client.py	/^    def ui(self):$/;"	kind:m	line:126	class:MainWindow	access:public	signature:(self)
+MainWindow.updateInfoDisplay	client.py	/^    def updateInfoDisplay(self,msg):$/;"	kind:m	line:170	class:MainWindow	access:public	signature:(self,msg)
+NNetWork	neuralnetwork.py	/^class NNetWork(object):$/;"	kind:c	line:9	inherits:object	access:public
+NNetWork.__init__	neuralnetwork.py	/^    def __init__(self,inputLayerNum,hideLayerNum,outputLayerNum,learnSpeed):$/;"	kind:m	line:11	class:NNetWork	access:public	signature:(self,inputLayerNum,hideLayerNum,outputLayerNum,learnSpeed)
+NNetWork.loadFromfile	neuralnetwork.py	/^    def loadFromfile(self):$/;"	kind:m	line:72	class:NNetWork	access:public	signature:(self)
+NNetWork.mini_batch_calculator	neuralnetwork.py	/^    def mini_batch_calculator(self,mini_batch,mini_batch_size):$/;"	kind:m	line:30	class:NNetWork	access:public	signature:(self,mini_batch,mini_batch_size)
+NNetWork.saveToFile	neuralnetwork.py	/^    def saveToFile(self):$/;"	kind:m	line:66	class:NNetWork	access:public	signature:(self)
+NNetWork.test	neuralnetwork.py	/^    def test(self,src):$/;"	kind:m	line:60	class:NNetWork	access:public	signature:(self,src)
+NNetWork.train	neuralnetwork.py	/^    def train(self,src,epoche,mini_batch_size,qlabel):$/;"	kind:m	line:22	class:NNetWork	access:public	signature:(self,src,epoche,mini_batch_size,qlabel)
+NeuralNetworkThread	client.py	/^class NeuralNetworkThread(QThread):$/;"	kind:c	line:40	inherits:QThread	access:public
+NeuralNetworkThread.__init__	client.py	/^    def __init__(self,test_images,test_labels,images,labels,network):$/;"	kind:m	line:43	class:NeuralNetworkThread	access:public	signature:(self,test_images,test_labels,images,labels,network)
+NeuralNetworkThread.finishSignal	client.py	/^    finishSignal = pyqtSignal()$/;"	kind:v	line:42	class:NeuralNetworkThread	access:public
+NeuralNetworkThread.run	client.py	/^    def run(self):$/;"	kind:m	line:54	class:NeuralNetworkThread	access:public	signature:(self)
+NeuralNetworkThread.setText	client.py	/^    def setText(self,msg):$/;"	kind:m	line:51	class:NeuralNetworkThread	access:public	signature:(self,msg)
+NeuralNetworkThread.update	client.py	/^    update = pyqtSignal(str)$/;"	kind:v	line:41	class:NeuralNetworkThread	access:public
+__init__	client.py	/^    def __init__(self):$/;"	kind:m	line:118	class:MainWindow	access:public	signature:(self)
+__init__	client.py	/^    def __init__(self):$/;"	kind:m	line:77	class:DrawingBoard	access:public	signature:(self)
+__init__	client.py	/^    def __init__(self,test_images,test_labels,images,labels,k):$/;"	kind:m	line:15	class:KNNThread	access:public	signature:(self,test_images,test_labels,images,labels,k)
+__init__	client.py	/^    def __init__(self,test_images,test_labels,images,labels,network):$/;"	kind:m	line:43	class:NeuralNetworkThread	access:public	signature:(self,test_images,test_labels,images,labels,network)
+__init__	neuralnetwork.py	/^    def __init__(self,inputLayerNum,hideLayerNum,outputLayerNum,learnSpeed):$/;"	kind:m	line:11	class:NNetWork	access:public	signature:(self,inputLayerNum,hideLayerNum,outputLayerNum,learnSpeed)
+app	client.py	/^    app = QApplication(sys.argv)$/;"	kind:v	line:217	access:public
+clear	client.py	/^    def clear(self):$/;"	kind:m	line:92	class:DrawingBoard	access:public	signature:(self)
+finishSignal	client.py	/^    finishSignal = pyqtSignal()$/;"	kind:v	line:14	class:KNNThread	access:public
+finishSignal	client.py	/^    finishSignal = pyqtSignal()$/;"	kind:v	line:42	class:NeuralNetworkThread	access:public
+getData	client.py	/^    def getData(self):$/;"	kind:m	line:114	class:DrawingBoard	access:public	signature:(self)
+getOutputFormat	neuralnetwork.py	/^def getOutputFormat(labels):$/;"	kind:f	line:81	access:public	signature:(labels)
+getZipImagesAndTables	neuralnetwork.py	/^def getZipImagesAndTables(imgs,labels):$/;"	kind:f	line:78	access:public	signature:(imgs,labels)
+knn	knn_mnist.py	/^def knn(test,trains,labels,k):$/;"	kind:f	line:5	access:public	signature:(test,trains,labels,k)
+loadFromfile	neuralnetwork.py	/^    def loadFromfile(self):$/;"	kind:m	line:72	class:NNetWork	access:public	signature:(self)
+load_data	mnistLoader.py	/^def load_data(path,kind='train'):$/;"	kind:f	line:7	access:public	signature:(path,kind='train')
+mini_batch_calculator	neuralnetwork.py	/^    def mini_batch_calculator(self,mini_batch,mini_batch_size):$/;"	kind:m	line:30	class:NNetWork	access:public	signature:(self,mini_batch,mini_batch_size)
+mouseDoubleClickEvent	client.py	/^    def mouseDoubleClickEvent(self,e):$/;"	kind:m	line:111	class:DrawingBoard	access:public	signature:(self,e)
+mouseMoveEvent	client.py	/^    def mouseMoveEvent(self,e):$/;"	kind:m	line:97	class:DrawingBoard	access:public	signature:(self,e)
+mousePressEvent	client.py	/^    def mousePressEvent(self,e):$/;"	kind:m	line:105	class:DrawingBoard	access:public	signature:(self,e)
+mouseReleaseEvent	client.py	/^    def mouseReleaseEvent(self,e):  $/;"	kind:m	line:108	class:DrawingBoard	access:public	signature:(self,e)
+np	client.py	/^import numpy as np$/;"	kind:I	line:9	access:public
+np	knn_mnist.py	/^import numpy as np$/;"	kind:I	line:2	access:public
+np	mnistLoader.py	/^import numpy as np$/;"	kind:I	line:3	access:public
+np	neuralnetwork.py	/^import numpy as np$/;"	kind:I	line:3	access:public
+run	client.py	/^    def run(self):$/;"	kind:m	line:22	class:KNNThread	access:public	signature:(self)
+run	client.py	/^    def run(self):$/;"	kind:m	line:54	class:NeuralNetworkThread	access:public	signature:(self)
+saveToFile	neuralnetwork.py	/^    def saveToFile(self):$/;"	kind:m	line:66	class:NNetWork	access:public	signature:(self)
+setText	client.py	/^    def setText(self,msg):$/;"	kind:m	line:51	class:NeuralNetworkThread	access:public	signature:(self,msg)
+settingButtonClicked	client.py	/^    def settingButtonClicked(self):$/;"	kind:m	line:167	class:MainWindow	access:public	signature:(self)
+sigmoid	neuralnetwork.py	/^def sigmoid(x):$/;"	kind:f	line:6	access:public	signature:(x)
+test	neuralnetwork.py	/^    def test(self,src):$/;"	kind:m	line:60	class:NNetWork	access:public	signature:(self,src)
+testTask	client.py	/^    def testTask(self):$/;"	kind:m	line:196	class:MainWindow	access:public	signature:(self)
+train	neuralnetwork.py	/^    def train(self,src,epoche,mini_batch_size,qlabel):$/;"	kind:m	line:22	class:NNetWork	access:public	signature:(self,src,epoche,mini_batch_size,qlabel)
+trainFinish	client.py	/^    def trainFinish(self):$/;"	kind:m	line:173	class:MainWindow	access:public	signature:(self)
+trainTask	client.py	/^    def trainTask(self):$/;"	kind:m	line:177	class:MainWindow	access:public	signature:(self)
+ui	client.py	/^    def ui(self):$/;"	kind:m	line:126	class:MainWindow	access:public	signature:(self)
+update	client.py	/^    update = pyqtSignal(str)$/;"	kind:v	line:13	class:KNNThread	access:public
+update	client.py	/^    update = pyqtSignal(str)$/;"	kind:v	line:41	class:NeuralNetworkThread	access:public
+updateInfoDisplay	client.py	/^    def updateInfoDisplay(self,msg):$/;"	kind:m	line:170	class:MainWindow	access:public	signature:(self,msg)
+window	client.py	/^    window = MainWindow()$/;"	kind:v	line:218	access:public
